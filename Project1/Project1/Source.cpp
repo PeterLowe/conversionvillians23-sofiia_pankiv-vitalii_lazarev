@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-<<<<<<< HEAD
+
 char printMenu() // written by Sofiia
 {
     char choice = ' ';// user input  choice
@@ -16,13 +16,28 @@ char printMenu() // written by Sofiia
     std::cin >> choice;
     return choice;
 }
+char angle() {
+    float angleI;
+    float radian;
+    float P = 3.14;
+    std::cout << "What's the angle in radians: " << std::endl;
+    std::cin >> radian ;
 
-=======
->>>>>>> master
+    angleI = radian / (P / 180);
+    std::cout << radian << " radians is "<< angleI <<" in degrees" << std::endl;
+    return angleI;
+}
+
+
 int main() {
+    float radian;
+    float angleI;
     char choice;
     choice = printMenu();
-
+    if (choice == 'a')
+    {
+        angleI = angle();
+    }
 
 	return 1;
 }
