@@ -2,6 +2,7 @@
 
 #include <iostream>
 
+<<<<<<< HEAD
 char printMenu() // written by Sofiia
 {
     char choice = ' ';// user input  choice
@@ -16,9 +17,12 @@ char printMenu() // written by Sofiia
     return choice;
 }
 
+=======
+>>>>>>> master
 int main() {
     char choice;
     choice = printMenu();
+
 
 	return 1;
 }
